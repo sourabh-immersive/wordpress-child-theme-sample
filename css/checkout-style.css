@@ -1,0 +1,38 @@
+#thwmscf-tabs .thwmscf-tab a{
+color:#050505!important;
+}
+.pickup-location-field .ui-datepicker-trigger{
+visibility:hidden;
+}
+.pickup-location-field .ui-datepicker-trigger::after{
+visibility:visible;
+left:0;
+position:absolute;
+}
+.shipping_address{
+padding-bottom: 40px;
+}
+#shipping_postcode_field{
+width:100%!important;
+}
+#thwmscf-tabs .thwmscf-tab a.active, #thwmscf-tabs .thwmscf-tab a.thwmscf-finished-step{
+color:#050505!important;
+}
+#thwmscf_wrapper li.thwmscf-tab a{
+color:#8b8b8b!important;
+}
+@media (max-width:768px){
+body .woocommerce .br_cart_suggestions .brcs_product{
+box-sizing:border-box;
+width:100%!important;
+border:1px solid #ccc;
+margin-right:0;
+border-radius:5px;
+}
+table.lpp-shipping-package-wrapper tr.woocommerce-shipping-totals th{
+display:none!important;
+}
+table.shop_table.woocommerce-checkout-review-order-table tfoot td::before{
+content:'';
+}
+}
